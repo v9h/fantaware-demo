@@ -37,8 +37,6 @@ local cth = function(x)return string.format("%%%02X", string.byte(x))end
       url = url:gsub(" ", "+")
       return url
     end
-
-local ah = readfile('hhs.txt')
 local c = game.Players.LocalPlayer.Character
 
 local b = game.Players.LocalPlayer.Backpack
