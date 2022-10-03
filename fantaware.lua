@@ -353,4 +353,17 @@ Players.PlayerRemoving:Connect(function(Player)
     NoCollider[Player.Name]:Disconnect()
 end)
         end)
-        
+         section3:addButton({
+            text = 'Respawn', 
+            style = 'large' -- style of the button, can be 'large' or 'small'
+        }):bindToEvent('onClick', function() -- Call a function when clicked
+local pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+game.Players.LocalPlayer.Character = nil
+game.Players.LocalPlayer.Character = workspace[game.Players.LocalPlayer.Name]
+wait(4.8)
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+
+game.Players.LocalPlayer.CharacterAdded:Wait():WaitForChild('HumanoidRootPart')['CFrame'] = pos
+        end)
