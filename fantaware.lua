@@ -94,11 +94,6 @@ play()
             text = 'Sync', 
             style = 'large'
         }):bindToEvent('onClick', function()
-             for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-        if string.find(string.lower(v.Name),'boomb') then
-            v.Remote:FireServer("PlaySong", hidden);
-        end
-     end
      wait(0.1)
 for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
     if v.ClassName == "Tool" and v:FindFirstChild("Handle") and v:FindFirstChildOfClass("RemoteEvent") and v.Handle:FindFirstChildOfClass("Sound") then
