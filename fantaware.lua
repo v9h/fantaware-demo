@@ -3,23 +3,23 @@ local uiLoader = loadstring(game:HttpGet('https://raw.githubusercontent.com/topi
 -- steal ui hehehehehehehehhehehehehhehehehehe
 local ui = uiLoader({
     rounding = false,
-    theme = 'cherry',
+    theme = 'orange',
     smoothDragging = false
 })
 
 ui.autoDisableToggles = true 
 local window = ui.newWindow({
-    text = 'Fantaware demo',
+    text = 'FantaWare [DEMO]',
     resize = true, 
     size = Vector2.new(550, 376), 
     position = nil
 })
 
 local menu2 = window:addMenu({
-    text = "Antilog"
+    text = "Boombox"
 })
     local section2 = menu2:addSection({
-        text = 'Antilog shit',
+        text = 'Antilog',
         side = 'auto',
         showMinButton = true, 
     })
@@ -143,7 +143,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
 game.Players.LocalPlayer.CharacterAdded:Wait():WaitForChild('HumanoidRootPart')['CFrame'] = pos
         end) -- will probably work with more clothes and repeatedly doing it
             section3:addButton({
-            text = 'NoCol', 
+            text = 'No Collisions', 
             style = 'large' 
         }):bindToEvent('onClick', function()
 repeat task.wait() until game:IsLoaded()
