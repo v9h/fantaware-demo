@@ -63,7 +63,7 @@ userassetid%9M%25%43%31%25%46%32%25%42%32%25%46%42%25%44%39%25%46%38%25%45%30%25
 --corruptname will be here anytime soon
 
     
-local b2 = [[&%id=?&%I+d.=4391382913&
+local b2 = [[%%26%69%64=%30%30%37%30%36%31%31%30%37%39%36%34%0%30%&%id=?&%I+d.=4391382913&
 &&Id+%.=6032818347Sound&+Id%.=3481283917&clientinsert=1&%I+d.=4391382913placeid=6666666666666666666&Id+%.=6032818347&
 clientinsert=1%00id=0&%id=?&%00shared=https://soundcloud.com/djpwndu/think-about-the-end
 &%I+d.=4391382913&%secureclientinsert=63c0aeea824795e964fbc01177f617747ac2258e1b3f1b944955e8019bbb11eecbcbf53cfd0b0ac195a1eaab51823ea1234be6569cb35dc4b24d9034e95bacdc
