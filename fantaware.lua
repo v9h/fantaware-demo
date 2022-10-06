@@ -1,5 +1,5 @@
 
-local uiLoader = loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/dollarware/main/library.lua'))
+local uiLoader = loadstring(game:HttpGet('https://raw.githubusercontent.com/v9h/fantaware-demo/main/ui-lib.lua'))
 -- steal ui hehehehehehehehhehehehehhehehehehe
 local ui = uiLoader({
     rounding = false,
