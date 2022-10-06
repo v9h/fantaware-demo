@@ -90,21 +90,21 @@ end
 equip()
 play()
     end)
-section2:addTextBox({
-text = 'Time Position (press enter)'
-})bindToEvent('onFocusLost', function(txt)
+          section2:addTextbox({
+            text = 'Timeposition (Press enter)'
+        }):bindToEvent('onFocusLost', function(txt) 
 for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
     if v.ClassName == "Tool" and v:FindFirstChild("Handle") and v:FindFirstChildOfClass("RemoteEvent") and v.Handle:FindFirstChildOfClass("Sound") then
         v.Handle.Sound.TimePosition = txt
     end
 end
-wait(0.1)
+wait(.1)
 for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
     if v.ClassName == "Tool" and v:FindFirstChild("Handle") and v:FindFirstChildOfClass("RemoteEvent") and v.Handle:FindFirstChildOfClass("Sound") then
         v.Handle.Sound.TimePosition = txt
     end
 end
-end)
+        end)
     section2:addButton({
             text = 'Sync', 
             style = 'large'
