@@ -1,6 +1,6 @@
 
 local uiLoader = loadstring(game:HttpGet('https://raw.githubusercontent.com/v9h/fantaware-demo/main/ui-lib.lua'))
--- steal ui hehehehehehehehhehehehehhehehehehe
+-- snag ui lib
 local ui = uiLoader({
     rounding = false,
     theme = 'orange',
@@ -379,4 +379,162 @@ wait(0.1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
 
 game.Players.LocalPlayer.CharacterAdded:Wait():WaitForChild('HumanoidRootPart')['CFrame'] = pos
+        end)
+
+            local section4 = menu2:addSection({
+        text = 'Grips',
+        side = 'auto',
+        showMinButton = true, 
+    })
+             section4:addButton({
+            text = 'Ak-47', 
+            style = 'large' -- style of the button, can be 'large' or 'small'
+        }):bindToEvent('onClick', function() -- Call a function when clicked
+local plr = game:GetService("Players").LocalPlayer; plr.Character.Humanoid:UnequipTools()
+ local Tools = plr.Backpack:GetChildren()
+
+ Tools[1].Grip = CFrame.new(0.7, -0.5, -0.2) * CFrame.Angles(50, math.rad(-180), 3.13)
+ Tools[1].Parent = plr.Character
+
+ Tools[2].Grip = CFrame.new(0.5, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0)
+ Tools[2].Parent = plr.Character
+
+ Tools[3].Grip = CFrame.new(-1.5, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0.03)
+ Tools[3].Parent = plr.Character
+
+ Tools[4].Grip = CFrame.new(-2.5, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0)
+ Tools[4].Parent = plr.Character
+
+ Tools[5].Grip = CFrame.new(-4.6, -0.4, -0.2) * CFrame.Angles(1.6, math.rad(-98), 1.6)
+ Tools[5].Parent = plr.Character
+
+ Tools[6].Grip = CFrame.new(-7, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0)
+ Tools[6].Parent = plr.Character
+
+ Tools[7].Grip = CFrame.new(-9.6, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0)
+ Tools[7].Parent = plr.Character
+
+ Tools[8].Grip = CFrame.new(-12.2, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0)
+ Tools[8].Parent = plr.Character
+
+ Tools[9].Grip = CFrame.new(-1.2, -3.1, -0.2) * CFrame.Angles(1.6, math.rad(-15), 1.6)
+ Tools[9].Parent = plr.Character
+
+ Tools[10].Grip = CFrame.new(-3.3, -2.7, -0.2) * CFrame.Angles(1.6, math.rad(-25), 1.6)
+ Tools[10].Parent = plr.Character
+
+ Tools[11].Grip = CFrame.new(-0.1, 1.8, -0.1) * CFrame.Angles(1.6, math.rad(65), 1.6)
+ Tools[11].Parent = plr.Character
+
+ Tools[12].Grip = CFrame.new(1.3, 2.05, -0.1) * CFrame.Angles(1.6, math.rad(90), 1.6)
+ Tools[12].Parent = plr.Character
+
+ Tools[13].Grip = CFrame.new(3.15, 2.05, -0.1) * CFrame.Angles(1.6, math.rad(90), 1.6)
+ Tools[13].Parent = plr.Character
+
+ Tools[14].Grip = CFrame.new(5.3, 2.05, -0.1) * CFrame.Angles(1.6, math.rad(90), 1.6)
+ Tools[14].Parent = plr.Character
+
+ Tools[15].Grip = CFrame.new(6.5, 4.1, -0.1) * CFrame.Angles(1.6, math.rad(110), 1.6)
+ Tools[15].Parent = plr.Character
+
+ Tools[16].Grip = CFrame.new(-14.3, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0)
+ Tools[16].Parent = plr.Character
+
+ Tools[17].Grip = CFrame.new(3.1, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0)
+ Tools[17].Parent = plr.Character
+
+ Tools[18].Grip = CFrame.new(5.2, -1.2, -0.2) * CFrame.Angles(0, math.rad(-90), 0)
+ Tools[18].Parent = plr.Character
+
+ Tools[19].Grip = CFrame.new(0.25, 6.8, -0.05) * CFrame.Angles(1.6, math.rad(-0), 1.6)
+ Tools[19].Parent = plr.Character
+
+ Tools[20].Grip = CFrame.new(3.8, -4.4, -0.27) * CFrame.Angles(1.6, math.rad(-137), 1.6)
+ Tools[20].Parent = plr.Character
+        end)
+                     section4:addButton({
+            text = 'Pickaxe', 
+            style = 'large' -- style of the button, can be 'large' or 'small'
+        }):bindToEvent('onClick', function() -- Call a function when clicked
+local plr = game:GetService("Players").LocalPlayer; plr.Character.Humanoid:UnequipTools()
+ local Tools = plr.Backpack:GetChildren()
+
+ Tools[1].Grip = CFrame.new(-0.4, 0.6, 0) * CFrame.Angles(1.6, math.rad(-180), 1.58)
+ Tools[1].Parent = plr.Character
+
+ Tools[2].Grip = CFrame.new(-2.7, 0.6, 0) * CFrame.Angles(1.6, math.rad(-180), 1.58)
+ Tools[2].Parent = plr.Character
+
+ Tools[3].Grip = CFrame.new(-4.5, 0.6, 0) * CFrame.Angles(1.6, math.rad(-180), 1.58)
+ Tools[3].Parent = plr.Character
+
+ Tools[4].Grip = CFrame.new(-6.3, 0.6, 0) * CFrame.Angles(1.6, math.rad(-180), 1.58)
+ Tools[4].Parent = plr.Character
+
+ Tools[5].Grip = CFrame.new(-0.3, 6.85, -0.4) * CFrame.Angles(38.5, math.rad(-270), 2.3)
+ Tools[5].Parent = plr.Character
+
+ Tools[6].Grip = CFrame.new(1.8, 6.85, -0.4) * CFrame.Angles(38.5, math.rad(-270), 2.3)
+ Tools[6].Parent = plr.Character
+
+ Tools[7].Grip = CFrame.new(3.3, 5.4, 0.32) * CFrame.Angles(1.6, math.rad(-320), 1.6)
+ Tools[7].Parent = plr.Character
+
+ Tools[8].Grip = CFrame.new(-2.42, 6.6, 0.32) * CFrame.Angles(1.6, math.rad(-220), 1.6)
+ Tools[8].Parent = plr.Character
+        end)
+                     section4:addButton({
+            text = 'Sword', 
+            style = 'large' 
+        }):bindToEvent('onClick', function() 
+local plr = game:GetService("Players").LocalPlayer; plr.Character.Humanoid:UnequipTools()
+ local Tools = plr.Backpack:GetChildren()
+
+ Tools[1].Grip = CFrame.new(0, -0.3, 0) * CFrame.Angles(1.58, math.rad(-360), 1.58)
+ Tools[1].Parent = plr.Character
+
+ Tools[2].Grip = CFrame.new(0.15, 1.7, -0.02) * CFrame.Angles(1.58, math.rad(90), 1.58)
+ Tools[2].Parent = plr.Character
+
+ Tools[3].Grip = CFrame.new(3, -0.9, -0.05) * CFrame.Angles(1.58, math.rad(-45), 1.58)
+ Tools[3].Parent = plr.Character
+
+ Tools[4].Grip = CFrame.new(-3.1, -0.67, -0.049) * CFrame.Angles(1.58, math.rad(-135), 1.58)
+ Tools[4].Parent = plr.Character
+
+ Tools[5].Grip = CFrame.new(2.2, -0.3, -0.03) * CFrame.Angles(1.58, math.rad(-360), 1.58)
+ Tools[5].Parent = plr.Character
+
+ Tools[6].Grip = CFrame.new(4.2, -0.3, 0) * CFrame.Angles(1.58, math.rad(-360), 1.58)
+ Tools[6].Parent = plr.Character
+
+ Tools[7].Grip = CFrame.new(6.2, -0.3, 0) * CFrame.Angles(1.58, math.rad(-360), 1.58)
+ Tools[7].Parent = plr.Character
+
+ Tools[8].Grip = CFrame.new(8.2, -0.3, 0) * CFrame.Angles(1.58, math.rad(-360), 1.58)
+ Tools[8].Parent = plr.Character
+
+ Tools[9].Grip = CFrame.new(10.2, -0.3, 0) * CFrame.Angles(1.58, math.rad(-360), 1.58)
+ Tools[9].Parent = plr.Character
+
+ Tools[10].Grip = CFrame.new(12.2, -0.3, 0) * CFrame.Angles(1.58, math.rad(-360), 1.58)
+ Tools[10].Parent = plr.Character
+end)
+                             section4:addButton({
+            text = 'Lowhold/Suitcase', 
+            style = 'large' 
+        }):bindToEvent('onClick', function()
+game.Players.LocalPlayer.Backpack.BoomBox.GripForward =  Vector3.new(-0, -1, 0)
+game.Players.LocalPlayer.Backpack.BoomBox.GripPos =  Vector3.new(-0.064, 0.835, -0)
+game.Players.LocalPlayer.Backpack.BoomBox.GripRight =  Vector3.new(-0, -0, -1)
+game.Players.LocalPlayer.Backpack.BoomBox.GripUp =  Vector3.new(-1, 0, 0)
+wait(0.2)
+game.Players.LocalPlayer:findFirstChildOfClass('Backpack')['BoomBox'].Parent = game.Players.LocalPlayer.Character
+wait(0.2)
+h = game.Players.LocalPlayer.Character.Humanoid
+tracks = h:GetPlayingAnimationTracks()
+for _,x in pairs(tracks)
+do x:Stop()
+end
         end)
