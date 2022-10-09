@@ -134,6 +134,13 @@ local section3 = menu3:addSection({
         side = 'auto',
         showMinButton = true,
     })
+section3:addButton({
+            text = 'Antikill', 
+            style = 'large'
+        }):bindToEvent('onClick', function()
+game.Players.LocalPlayer.Character.Humanoid:SetStateEnabled("Seated", false)
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
+        end)
     section3:addButton({
             text = 'Crash', 
             style = 'large'
