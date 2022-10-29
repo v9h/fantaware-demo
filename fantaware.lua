@@ -135,6 +135,19 @@ local section3 = menu3:addSection({
         showMinButton = true,
     })
 section3:addButton({
+            text = 'Dev Crash', 
+            style = 'large'
+        }):bindToEvent('onClick', function()
+        while wait(1) do
+  for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+        if string.find(string.lower(v.Name),'boomb') then
+        lol = string.rep("⛓️", 12000)
+            v.Remote:FireServer("PlaySong", lol)
+        end
+        end
+        end
+        end)
+section3:addButton({
             text = 'Antikill', 
             style = 'large'
         }):bindToEvent('onClick', function()
