@@ -1,5 +1,7 @@
 # FantaWare, simply best code ever
 
+<img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+
 ## what the FUCK is FantaWare demo?
 
 FantaWare demo is a community-ran project for the game Dollhouse Roleplay. Anyone can request any changes to the code or their own scripts to be added for easier use for everyone! WOOOOOOOOOOO
