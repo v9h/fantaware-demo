@@ -1,6 +1,6 @@
 
 local uiLoader = loadstring(game:HttpGet('https://raw.githubusercontent.com/v9h/fantaware-demo/main/ui-lib.lua'))
--- snag ui lib
+-- snag ui lib,obviously stole this
 local ui = uiLoader({
     rounding = false,
     theme = 'orange',
