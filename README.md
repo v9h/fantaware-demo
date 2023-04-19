@@ -4,7 +4,9 @@
 
 ## what the FUCK is FantaWare demo?
 
-FantaWare demo is a community-ran project for the game Dollhouse Roleplay. Anyone can request any changes to the code or their own scripts to be added for easier use for everyone! WOOOOOOOOOOO
+FantaWare demo is a community-ran project for the game Dollhouse Roleplay. Anyone can request any changes to the code or their own scripts to be added for easier use for everyone! 
+
+This is MAINLY a project for a good antilog. If you want visualizers or whatever, go somewhere else.
 
 ### I want to contribute!
 Fork.
