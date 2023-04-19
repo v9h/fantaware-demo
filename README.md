@@ -13,14 +13,9 @@ Contribute.
 Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. Contribute. 
 
 ### Fuck this shit I don't want to contribute.
-Use script then loser no brain no code noob.
+Just use the script. Just remember I do not like you.
+(unless you can't code, that's understandable.)
 
-## What the FUCK is FantaWare PREMIUM?
+## What the FUCK happened to FANTAWARE PREMIUM?
 
-Basically better version that includes my own edits to public code and private code only available to paying customers (exactly 3$ for this for even more cool stuff every time I find something quite interesting...)
-
-## I DON'T PLAY DOLLHOUSE, I WANT THIS SHIT AT ITS FULL ABILITIES!!!
-
-Easy, buy premium and make an ISSUE regarding your suggestion for the premium version which supports any games you (or I) care about.
-
-(this can also be used to suggest new games)
+I am simply too lazy to continue and would like to keep my new code private.
